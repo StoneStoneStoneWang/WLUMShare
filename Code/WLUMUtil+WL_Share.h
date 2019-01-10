@@ -9,9 +9,6 @@
 
 #import <WLUMStatistics/WLUMUtil.h>
 
-#import <UMShare/UMShare.h>
-
-#import <UShareUI/UShareUI.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

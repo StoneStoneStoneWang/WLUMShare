@@ -8,6 +8,10 @@
 
 #import "WLUMUtil+WL_Share.h"
 
+#import <UMShare/UMShare.h>
+
+#import <UShareUI/UShareUI.h>
+
 @implementation WLUMUtil (WL_Share)
 
 - (void)setPlats:(NSArray *)plats {
