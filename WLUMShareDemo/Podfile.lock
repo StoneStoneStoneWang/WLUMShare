@@ -1,0 +1,45 @@
+PODS:
+  - UMCAnalytics (5.5.2):
+    - UMCCommon
+  - UMCCommon (1.5.3)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/WeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - WLUMStatistics (1.0.1):
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+
+DEPENDENCIES:
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
+  - WLUMStatistics
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+    - WLUMStatistics
+
+SPEC CHECKSUMS:
+  UMCAnalytics: 6654fd3c8201ff6da5c86a3ae29cd5c8436d3b7b
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+  WLUMStatistics: 5c25a686b6f38ac0aa4b82dae92c44900d01f34b
+
+PODFILE CHECKSUM: f6eae54fe2ce65e28f232715bd57257f3c3328e7
+
+COCOAPODS: 1.6.0.beta.2

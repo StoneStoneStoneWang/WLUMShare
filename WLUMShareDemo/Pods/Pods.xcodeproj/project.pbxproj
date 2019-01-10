@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		36498C9E96C1E277790953457B013501 /* UMCCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AB56A8F303C7F77F81898AC37D6DE882 /* Build configuration list for PBXAggregateTarget "UMCCommon" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMCCommon;
+			productName = UMCCommon;
+		};
+		586D2192733911C245B26A995ED58EC1 /* UMCAnalytics */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B8F3CCA16EF12F3F887A214B2F1DC1F6 /* Build configuration list for PBXAggregateTarget "UMCAnalytics" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9C95A780D44BF998379D1AC77F5C0E3C /* PBXTargetDependency */,
+			);
+			name = UMCAnalytics;
+			productName = UMCAnalytics;
+		};
+		5E3C121790BEA98C63661626A762DC61 /* UMCSecurityPlugins */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24D027F26E61496E2BB5168B82DBE20B /* Build configuration list for PBXAggregateTarget "UMCSecurityPlugins" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UMCSecurityPlugins;
+			productName = UMCSecurityPlugins;
+		};
+		83DF66E769B1B349726E78217FDA3F94 /* UMCShare */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72D479C60CB3D1EB1047A2C254270E2C /* Build configuration list for PBXAggregateTarget "UMCShare" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9BEAA40F74B08C96DE4AB5F8606EF2AE /* PBXTargetDependency */,
+			);
+			name = UMCShare;
+			productName = UMCShare;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2B973183A51C58E851C01049F5833785 /* WLUMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3039E99E25B120BD211E6F5B8C35542C /* WLUMUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D75CF9987DC6D0257AF675383C3B6D8 /* Pods-WLUMShareDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C9CFCC43C9BB81453BB295509070B3 /* Pods-WLUMShareDemo-dummy.m */; };
+		539893072A01E381295A74D8801CC5F2 /* WLUMStatistics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA01B697091B2FC6A8DD36014932746C /* WLUMStatistics-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C527B7706D28E7C7413662E73F80A69 /* WLUMUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 03895BA694C70FDCABE17B3B8FA562AA /* WLUMUtil.m */; };
+		98D1A297F82D692BB5B064ADBCF7724A /* WLUMStatistics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D610B5F2B18FCFCCE95F17172BF1E8 /* WLUMStatistics-dummy.m */; };
+		FDF00A43CD3865CE7E7378CDAC0DF047 /* WLUMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = E6BC58BB6759DFBF39247155AA73DE7D /* WLUMConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A56927872A074B7F2CE04850547D5B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36498C9E96C1E277790953457B013501;
+			remoteInfo = UMCCommon;
+		};
+		2518B0254E13131D4A0D793C02CD5022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586D2192733911C245B26A995ED58EC1;
+			remoteInfo = UMCAnalytics;
+		};
+		356B6F370B298435CEB9E8C730C36098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36498C9E96C1E277790953457B013501;
+			remoteInfo = UMCCommon;
+		};
+		3677E08DB787F57A0290AA76F03A452A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586D2192733911C245B26A995ED58EC1;
+			remoteInfo = UMCAnalytics;
+		};
+		39C85CDC4235F6B04ED47C51322C87B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3C121790BEA98C63661626A762DC61;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		761DB1D12BD3BC6C89253B9340E08038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DF66E769B1B349726E78217FDA3F94;
+			remoteInfo = UMCShare;
+		};
+		9AA787A254419554D831FB8F7354215D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36498C9E96C1E277790953457B013501;
+			remoteInfo = UMCCommon;
+		};
+		9F618B03FA3FFC0D359820C0AF574346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3C121790BEA98C63661626A762DC61;
+			remoteInfo = UMCSecurityPlugins;
+		};
+		EAD6B05044315C0539581FD16B70FB45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36498C9E96C1E277790953457B013501;
+			remoteInfo = UMCCommon;
+		};
+		F1692BE0F980F5E1E8517580CB103992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E6DB70DEE202988F0080C792E65EDB;
+			remoteInfo = WLUMStatistics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D610B5F2B18FCFCCE95F17172BF1E8 /* WLUMStatistics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLUMStatistics-dummy.m"; sourceTree = "<group>"; };
+		03895BA694C70FDCABE17B3B8FA562AA /* WLUMUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLUMUtil.m; path = Code/WLUMUtil.m; sourceTree = "<group>"; };
+		074E3C36773B417372FC4D343FF116B0 /* WLUMStatistics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLUMStatistics-prefix.pch"; sourceTree = "<group>"; };
+		24C6B3244BAD12E710380E99F26589FF /* Pods-WLUMShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLUMShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2685200457C98ED9D48C99480545B47E /* libPods-WLUMShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLUMShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBE20E83FED2D2D638A66BF5795A3F9 /* WLUMStatistics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLUMStatistics.xcconfig; sourceTree = "<group>"; };
+		3039E99E25B120BD211E6F5B8C35542C /* WLUMUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLUMUtil.h; path = Code/WLUMUtil.h; sourceTree = "<group>"; };
+		31EF4BEE7C834449B0658287BB039BDE /* UMCShare.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCShare.xcconfig; sourceTree = "<group>"; };
+		36D7C356BCF1689A8E9C64CAA115AE20 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		42EC7B4BEA529376277084C95913B99F /* Pods-WLUMShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLUMShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5991933B282F0331E07D22A381523B6E /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
+		645BFE8884AB893813C13EFFE88A78D1 /* UMCSecurityPlugins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCSecurityPlugins.xcconfig; sourceTree = "<group>"; };
+		6D23E16A31E1F068B5F64F697901AE67 /* Pods-WLUMShareDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLUMShareDemo-resources.sh"; sourceTree = "<group>"; };
+		7D4914054C5731395B2B0AC276B338D3 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		878EDFE2508DDEFDC947C6B7C7A5432B /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		8844F37FAC598BD69BB0E6355E6F4A08 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		8926A9206060715AC6981DF79059EF11 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		893F7C6402285E0C6676505799926BBC /* Pods-WLUMShareDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLUMShareDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C7ABD89180FB57FBED025E7220670F4 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
+		AA01B697091B2FC6A8DD36014932746C /* WLUMStatistics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLUMStatistics-umbrella.h"; sourceTree = "<group>"; };
+		AF908682CB6C7DE8C8BC9FCCC009265D /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		B98C49F0D5232AAC50C35437538E6FBF /* UMCCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.xcconfig; sourceTree = "<group>"; };
+		C24687EA0DC91B5002420A19DE2EF7BB /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		C5DF06C57186B16305C7D7644B5BAAF8 /* libWLUMStatistics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLUMStatistics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BEC1133060FABEA2213C33571EACDC /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		D0CF36DD5EBF00D0A981B32CEFB69111 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		D0F02E300B79E7CCE120A2B54694D674 /* UMCAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCAnalytics.xcconfig; sourceTree = "<group>"; };
+		DE56E3FDF9CDD561DB3F157F14CA4337 /* WLUMStatistics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLUMStatistics.modulemap; sourceTree = "<group>"; };
+		E09AFF6397BBA7EF85F5633A26BEFC3A /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = thirdparties/UTDID.framework; sourceTree = "<group>"; };
+		E6BC58BB6759DFBF39247155AA73DE7D /* WLUMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLUMConfig.h; path = Code/WLUMConfig.h; sourceTree = "<group>"; };
+		E80EC862E545DD472AC00A0C6FF53E07 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		F2C9CFCC43C9BB81453BB295509070B3 /* Pods-WLUMShareDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLUMShareDemo-dummy.m"; sourceTree = "<group>"; };
+		F510D6D3D78DCD8CBF1A6C11E7E176A9 /* Pods-WLUMShareDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLUMShareDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6D0CD9E3BC2F24A4FFC697A37CFB908 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70D20A83A1357A4A4E45A28FC7C19845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B919503560218194F2EB7BA8A6318E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CB573EA56981FCA6934FA46908E43D /* UMCShare */ = {
+			isa = PBXGroup;
+			children = (
+				F0D8E361B0119135B124D2661EA1FA15 /* Core */,
+				D528030037885A93CC5A2BF849D9CEE6 /* Social */,
+				95BCCCD3B12646F3D5C925D8CD981822 /* Support Files */,
+				FE2370DB1C4FD9D1F1EAE87DDDA7D9E7 /* UI */,
+			);
+			path = UMCShare;
+			sourceTree = "<group>";
+		};
+		0C2E4D016A8E3997B7DBE3476C6D9ABB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				645BFE8884AB893813C13EFFE88A78D1 /* UMCSecurityPlugins.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCSecurityPlugins";
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F643B1DDF6538780E98017FF72510A2 /* WLUMStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				E6BC58BB6759DFBF39247155AA73DE7D /* WLUMConfig.h */,
+				3039E99E25B120BD211E6F5B8C35542C /* WLUMUtil.h */,
+				03895BA694C70FDCABE17B3B8FA562AA /* WLUMUtil.m */,
+				F18F1AE4296603B6C55E1244ABBBA2F1 /* Support Files */,
+			);
+			path = WLUMStatistics;
+			sourceTree = "<group>";
+		};
+		3B1FD93A2B2621F4DE97EF94B6E6D746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8926A9206060715AC6981DF79059EF11 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4821139B1C87C049DA9041EAAE7E466A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CF36DD5EBF00D0A981B32CEFB69111 /* UMAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		515D6F9DFD2707FC2E3858B1780566D2 /* Pods-WLUMShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				893F7C6402285E0C6676505799926BBC /* Pods-WLUMShareDemo-acknowledgements.markdown */,
+				F510D6D3D78DCD8CBF1A6C11E7E176A9 /* Pods-WLUMShareDemo-acknowledgements.plist */,
+				F2C9CFCC43C9BB81453BB295509070B3 /* Pods-WLUMShareDemo-dummy.m */,
+				6D23E16A31E1F068B5F64F697901AE67 /* Pods-WLUMShareDemo-resources.sh */,
+				42EC7B4BEA529376277084C95913B99F /* Pods-WLUMShareDemo.debug.xcconfig */,
+				24C6B3244BAD12E710380E99F26589FF /* Pods-WLUMShareDemo.release.xcconfig */,
+			);
+			name = "Pods-WLUMShareDemo";
+			path = "Target Support Files/Pods-WLUMShareDemo";
+			sourceTree = "<group>";
+		};
+		5325BB374DE2D627C8FCE24600AAD00E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36D7C356BCF1689A8E9C64CAA115AE20 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		53C4FCBF538C8A7FEDC31D9E3D84B73B /* UMCSecurityPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				B2A81D5FE989CADE2621B2F0E68BCCF3 /* Frameworks */,
+				0C2E4D016A8E3997B7DBE3476C6D9ABB /* Support Files */,
+			);
+			path = UMCSecurityPlugins;
+			sourceTree = "<group>";
+		};
+		5459B296941AED3E6E869A170D2AC7EF /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				8844F37FAC598BD69BB0E6355E6F4A08 /* WechatAuthSDK.h */,
+				7D4914054C5731395B2B0AC276B338D3 /* WXApi.h */,
+				E80EC862E545DD472AC00A0C6FF53E07 /* WXApiObject.h */,
+				BE8ECAD8BA8347E675E4979AB2B199DA /* Frameworks */,
+			);
+			name = WeChat;
+			sourceTree = "<group>";
+		};
+		55A354DC6B29EF0BC62689FF48CE7CCD /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				AF908682CB6C7DE8C8BC9FCCC009265D /* UMSocialWechatHandler.h */,
+				3B1FD93A2B2621F4DE97EF94B6E6D746 /* Frameworks */,
+			);
+			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				AADC812AE88AA810DA77DC4FE99F78D9 /* Pods */,
+				BCFCBC19F45E7F231693CB6A53B3AB2E /* Products */,
+				A007132988154CE0089BE6C5A5159BED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82ACC812ABB1836F83D07060272EC62B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F02E300B79E7CCE120A2B54694D674 /* UMCAnalytics.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCAnalytics";
+			sourceTree = "<group>";
+		};
+		8834CB413F1BB6F162B3FA6BAE0E90FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BEC1133060FABEA2213C33571EACDC /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BCCCD3B12646F3D5C925D8CD981822 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31EF4BEE7C834449B0658287BB039BDE /* UMCShare.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCShare";
+			sourceTree = "<group>";
+		};
+		9600534D7F0734EB4F9D4C1C04E98E68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878EDFE2508DDEFDC947C6B7C7A5432B /* UShareUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A007132988154CE0089BE6C5A5159BED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				515D6F9DFD2707FC2E3858B1780566D2 /* Pods-WLUMShareDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AADC812AE88AA810DA77DC4FE99F78D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A42288C2B642B1E6AB2F1CECBB910 /* UMCAnalytics */,
+				EC544A9D9FE9CD7518EBCCAB54636D54 /* UMCCommon */,
+				53C4FCBF538C8A7FEDC31D9E3D84B73B /* UMCSecurityPlugins */,
+				06CB573EA56981FCA6934FA46908E43D /* UMCShare */,
+				1F643B1DDF6538780E98017FF72510A2 /* WLUMStatistics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC8A42288C2B642B1E6AB2F1CECBB910 /* UMCAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4821139B1C87C049DA9041EAAE7E466A /* Frameworks */,
+				82ACC812ABB1836F83D07060272EC62B /* Support Files */,
+			);
+			path = UMCAnalytics;
+			sourceTree = "<group>";
+		};
+		B2A81D5FE989CADE2621B2F0E68BCCF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5991933B282F0331E07D22A381523B6E /* SecurityEnvSDK.framework */,
+				E09AFF6397BBA7EF85F5633A26BEFC3A /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCFCBC19F45E7F231693CB6A53B3AB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2685200457C98ED9D48C99480545B47E /* libPods-WLUMShareDemo.a */,
+				C5DF06C57186B16305C7D7644B5BAAF8 /* libWLUMStatistics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE8ECAD8BA8347E675E4979AB2B199DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24687EA0DC91B5002420A19DE2EF7BB /* libSocialOfficialWeChat.a */,
+				8C7ABD89180FB57FBED025E7220670F4 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D528030037885A93CC5A2BF849D9CEE6 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				55A354DC6B29EF0BC62689FF48CE7CCD /* ReducedWeChat */,
+				5459B296941AED3E6E869A170D2AC7EF /* WeChat */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		DD8E368C9DB0634AABCFAEB452394965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0CD9E3BC2F24A4FFC697A37CFB908 /* UMShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC544A9D9FE9CD7518EBCCAB54636D54 /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				8834CB413F1BB6F162B3FA6BAE0E90FB /* Frameworks */,
+				F6F43985C7F91813AE95E3E00BCA5F08 /* Support Files */,
+			);
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		F0D8E361B0119135B124D2661EA1FA15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DD8E368C9DB0634AABCFAEB452394965 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F18F1AE4296603B6C55E1244ABBBA2F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE56E3FDF9CDD561DB3F157F14CA4337 /* WLUMStatistics.modulemap */,
+				2CBE20E83FED2D2D638A66BF5795A3F9 /* WLUMStatistics.xcconfig */,
+				02D610B5F2B18FCFCCE95F17172BF1E8 /* WLUMStatistics-dummy.m */,
+				074E3C36773B417372FC4D343FF116B0 /* WLUMStatistics-prefix.pch */,
+				AA01B697091B2FC6A8DD36014932746C /* WLUMStatistics-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WLUMStatistics";
+			sourceTree = "<group>";
+		};
+		F6F43985C7F91813AE95E3E00BCA5F08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B98C49F0D5232AAC50C35437538E6FBF /* UMCCommon.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UMCCommon";
+			sourceTree = "<group>";
+		};
+		FE2370DB1C4FD9D1F1EAE87DDDA7D9E7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9600534D7F0734EB4F9D4C1C04E98E68 /* Frameworks */,
+				5325BB374DE2D627C8FCE24600AAD00E /* Resources */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		852C06257B9D66A7A2E1D76F4F5242CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF00A43CD3865CE7E7378CDAC0DF047 /* WLUMConfig.h in Headers */,
+				539893072A01E381295A74D8801CC5F2 /* WLUMStatistics-umbrella.h in Headers */,
+				2B973183A51C58E851C01049F5833785 /* WLUMUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858358A60F5583E471B117AD29D8CF60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CDE799825340909D82EA601E9E05DFA /* Pods-WLUMShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE0CA9EBC807950E75E3411B6D158DD /* Build configuration list for PBXNativeTarget "Pods-WLUMShareDemo" */;
+			buildPhases = (
+				858358A60F5583E471B117AD29D8CF60 /* Headers */,
+				A2DED5E43421151DA1258B7599505382 /* Sources */,
+				70D20A83A1357A4A4E45A28FC7C19845 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02A20C4A67CE1E4595CDFE74B601C912 /* PBXTargetDependency */,
+				E29EDAA4E6DC9CF9A18BB50FA47F7302 /* PBXTargetDependency */,
+				AA74526B81A4343F4385041DBD859D01 /* PBXTargetDependency */,
+				25150206D26C092EF744D4C519A13E2A /* PBXTargetDependency */,
+				58AB55A3E77EB121BB1AAFC786D12CE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLUMShareDemo";
+			productName = "Pods-WLUMShareDemo";
+			productReference = 2685200457C98ED9D48C99480545B47E /* libPods-WLUMShareDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79E6DB70DEE202988F0080C792E65EDB /* WLUMStatistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F13AF0C635B00683CA57F40FE59F89 /* Build configuration list for PBXNativeTarget "WLUMStatistics" */;
+			buildPhases = (
+				852C06257B9D66A7A2E1D76F4F5242CF /* Headers */,
+				B13BF877EEBF7EC257DBB152D6BCF3BF /* Sources */,
+				B919503560218194F2EB7BA8A6318E35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2DDCA12180E59F61A966F8DA7E4AD9 /* PBXTargetDependency */,
+				17C7C05C59ADD9C09CC2ED7E823C3ACA /* PBXTargetDependency */,
+				26E87259F4B3AB424BDBA38516408973 /* PBXTargetDependency */,
+			);
+			name = WLUMStatistics;
+			productName = WLUMStatistics;
+			productReference = C5DF06C57186B16305C7D7644B5BAAF8 /* libWLUMStatistics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BCFCBC19F45E7F231693CB6A53B3AB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CDE799825340909D82EA601E9E05DFA /* Pods-WLUMShareDemo */,
+				586D2192733911C245B26A995ED58EC1 /* UMCAnalytics */,
+				36498C9E96C1E277790953457B013501 /* UMCCommon */,
+				5E3C121790BEA98C63661626A762DC61 /* UMCSecurityPlugins */,
+				83DF66E769B1B349726E78217FDA3F94 /* UMCShare */,
+				79E6DB70DEE202988F0080C792E65EDB /* WLUMStatistics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DED5E43421151DA1258B7599505382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D75CF9987DC6D0257AF675383C3B6D8 /* Pods-WLUMShareDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13BF877EEBF7EC257DBB152D6BCF3BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D1A297F82D692BB5B064ADBCF7724A /* WLUMStatistics-dummy.m in Sources */,
+				8C527B7706D28E7C7413662E73F80A69 /* WLUMUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A20C4A67CE1E4595CDFE74B601C912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCAnalytics;
+			target = 586D2192733911C245B26A995ED58EC1 /* UMCAnalytics */;
+			targetProxy = 3677E08DB787F57A0290AA76F03A452A /* PBXContainerItemProxy */;
+		};
+		17C7C05C59ADD9C09CC2ED7E823C3ACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 36498C9E96C1E277790953457B013501 /* UMCCommon */;
+			targetProxy = 0A56927872A074B7F2CE04850547D5B5 /* PBXContainerItemProxy */;
+		};
+		25150206D26C092EF744D4C519A13E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCShare;
+			target = 83DF66E769B1B349726E78217FDA3F94 /* UMCShare */;
+			targetProxy = 761DB1D12BD3BC6C89253B9340E08038 /* PBXContainerItemProxy */;
+		};
+		26E87259F4B3AB424BDBA38516408973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			target = 5E3C121790BEA98C63661626A762DC61 /* UMCSecurityPlugins */;
+			targetProxy = 9F618B03FA3FFC0D359820C0AF574346 /* PBXContainerItemProxy */;
+		};
+		4E2DDCA12180E59F61A966F8DA7E4AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCAnalytics;
+			target = 586D2192733911C245B26A995ED58EC1 /* UMCAnalytics */;
+			targetProxy = 2518B0254E13131D4A0D793C02CD5022 /* PBXContainerItemProxy */;
+		};
+		58AB55A3E77EB121BB1AAFC786D12CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLUMStatistics;
+			target = 79E6DB70DEE202988F0080C792E65EDB /* WLUMStatistics */;
+			targetProxy = F1692BE0F980F5E1E8517580CB103992 /* PBXContainerItemProxy */;
+		};
+		9BEAA40F74B08C96DE4AB5F8606EF2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 36498C9E96C1E277790953457B013501 /* UMCCommon */;
+			targetProxy = EAD6B05044315C0539581FD16B70FB45 /* PBXContainerItemProxy */;
+		};
+		9C95A780D44BF998379D1AC77F5C0E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 36498C9E96C1E277790953457B013501 /* UMCCommon */;
+			targetProxy = 356B6F370B298435CEB9E8C730C36098 /* PBXContainerItemProxy */;
+		};
+		AA74526B81A4343F4385041DBD859D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCSecurityPlugins;
+			target = 5E3C121790BEA98C63661626A762DC61 /* UMCSecurityPlugins */;
+			targetProxy = 39C85CDC4235F6B04ED47C51322C87B7 /* PBXContainerItemProxy */;
+		};
+		E29EDAA4E6DC9CF9A18BB50FA47F7302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 36498C9E96C1E277790953457B013501 /* UMCCommon */;
+			targetProxy = 9AA787A254419554D831FB8F7354215D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0AEEEC5BAF6F31B6FF6C27F926EB4642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EF4BEE7C834449B0658287BB039BDE /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		225E73DEC52721FB44556C441435C63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F02E300B79E7CCE120A2B54694D674 /* UMCAnalytics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447956D8E949936DBBA7726F5F4440D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C6B3244BAD12E710380E99F26589FF /* Pods-WLUMShareDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62954EEF3CBE38892A30D8B8673226A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645BFE8884AB893813C13EFFE88A78D1 /* UMCSecurityPlugins.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6920D2CF4B089E911E680C50D02AE691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98C49F0D5232AAC50C35437538E6FBF /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8167411E1E324367F954DEDE12295792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBE20E83FED2D2D638A66BF5795A3F9 /* WLUMStatistics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WLUMStatistics/WLUMStatistics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/WLUMStatistics/WLUMStatistics.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WLUMStatistics;
+				PRODUCT_NAME = WLUMStatistics;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1CE6EC0B011E4A96CC38C0E72F138B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EF4BEE7C834449B0658287BB039BDE /* UMCShare.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7199CE0918DA4864E4307E20AEB0811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBE20E83FED2D2D638A66BF5795A3F9 /* WLUMStatistics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WLUMStatistics/WLUMStatistics-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/WLUMStatistics/WLUMStatistics.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WLUMStatistics;
+				PRODUCT_NAME = WLUMStatistics;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0DDC919E2DE215704FDBFD7E51AE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F02E300B79E7CCE120A2B54694D674 /* UMCAnalytics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4A1EB84A8103C8217D33DDD2398454B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645BFE8884AB893813C13EFFE88A78D1 /* UMCSecurityPlugins.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3A6515028FD3A20967211D5C4376FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98C49F0D5232AAC50C35437538E6FBF /* UMCCommon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10BC824D2C8098B51C601613E263195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EC7B4BEA529376277084C95913B99F /* Pods-WLUMShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D027F26E61496E2BB5168B82DBE20B /* Build configuration list for PBXAggregateTarget "UMCSecurityPlugins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62954EEF3CBE38892A30D8B8673226A3 /* Debug */,
+				C4A1EB84A8103C8217D33DDD2398454B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
+				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D479C60CB3D1EB1047A2C254270E2C /* Build configuration list for PBXAggregateTarget "UMCShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AEEEC5BAF6F31B6FF6C27F926EB4642 /* Debug */,
+				B1CE6EC0B011E4A96CC38C0E72F138B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F13AF0C635B00683CA57F40FE59F89 /* Build configuration list for PBXNativeTarget "WLUMStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7199CE0918DA4864E4307E20AEB0811 /* Debug */,
+				8167411E1E324367F954DEDE12295792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB56A8F303C7F77F81898AC37D6DE882 /* Build configuration list for PBXAggregateTarget "UMCCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6920D2CF4B089E911E680C50D02AE691 /* Debug */,
+				DF3A6515028FD3A20967211D5C4376FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F3CCA16EF12F3F887A214B2F1DC1F6 /* Build configuration list for PBXAggregateTarget "UMCAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DDC919E2DE215704FDBFD7E51AE42C /* Debug */,
+				225E73DEC52721FB44556C441435C63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE0CA9EBC807950E75E3411B6D158DD /* Build configuration list for PBXNativeTarget "Pods-WLUMShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10BC824D2C8098B51C601613E263195 /* Debug */,
+				447956D8E949936DBBA7726F5F4440D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

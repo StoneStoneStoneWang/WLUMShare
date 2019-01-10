@@ -1,0 +1,6 @@
+module WLUMStatistics {
+  umbrella header "WLUMStatistics-umbrella.h"
+
+  export *
+  module * { export * }
+}
