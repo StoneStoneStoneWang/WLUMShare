@@ -3,12 +3,12 @@ This application makes use of the following third party libraries:
 
 ## UMCAnalytics
 
-Copyright 2011 - 2018 umeng.com. All rights reserved.
+Copyright 2011 - 2019 umeng.com. All rights reserved.
 
 
 ## UMCCommon
 
-Copyright 2011 - 2018 umeng.com. All rights reserved.
+Copyright 2011 - 2019 umeng.com. All rights reserved.
 
 
 ## UMCSecurityPlugins

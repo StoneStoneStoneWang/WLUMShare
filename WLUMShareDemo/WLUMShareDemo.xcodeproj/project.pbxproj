@@ -16,7 +16,7 @@
 		6C33425021E72C660095CCC6 /* WLUMShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C33424F21E72C660095CCC6 /* WLUMShareDemoTests.m */; };
 		6C33425B21E72C660095CCC6 /* WLUMShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C33425A21E72C660095CCC6 /* WLUMShareDemoUITests.m */; };
 		6C33426A21E72C8C0095CCC6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C33426921E72C8C0095CCC6 /* Podfile */; };
-		6C33426D21E72D620095CCC6 /* WLUMUtil+WL_Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C33426C21E72D620095CCC6 /* WLUMUtil+WL_Share.m */; };
+		6C33426D21E72D620095CCC6 /* WLUMUtil+Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C33426C21E72D620095CCC6 /* WLUMUtil+Share.m */; };
 		CDBC8DB13DDF3B517FF3F058 /* libPods-WLUMShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B41241FEF43B38AFD7FD69 /* libPods-WLUMShareDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +57,8 @@
 		6C33425A21E72C660095CCC6 /* WLUMShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLUMShareDemoUITests.m; sourceTree = "<group>"; };
 		6C33425C21E72C660095CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C33426921E72C8C0095CCC6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		6C33426B21E72D620095CCC6 /* WLUMUtil+WL_Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLUMUtil+WL_Share.h"; sourceTree = "<group>"; };
-		6C33426C21E72D620095CCC6 /* WLUMUtil+WL_Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WLUMUtil+WL_Share.m"; sourceTree = "<group>"; };
+		6C33426B21E72D620095CCC6 /* WLUMUtil+Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLUMUtil+Share.h"; sourceTree = "<group>"; };
+		6C33426C21E72D620095CCC6 /* WLUMUtil+Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WLUMUtil+Share.m"; sourceTree = "<group>"; };
 		BDB762464F1452F40D25F70E /* Pods-WLUMShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUMShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-WLUMShareDemo/Pods-WLUMShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,8 +157,8 @@
 		6C33426821E72C7C0095CCC6 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				6C33426B21E72D620095CCC6 /* WLUMUtil+WL_Share.h */,
-				6C33426C21E72D620095CCC6 /* WLUMUtil+WL_Share.m */,
+				6C33426B21E72D620095CCC6 /* WLUMUtil+Share.h */,
+				6C33426C21E72D620095CCC6 /* WLUMUtil+Share.m */,
 			);
 			name = Code;
 			path = ../../Code;
@@ -354,7 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C33423B21E72C650095CCC6 /* ViewController.m in Sources */,
-				6C33426D21E72D620095CCC6 /* WLUMUtil+WL_Share.m in Sources */,
+				6C33426D21E72D620095CCC6 /* WLUMUtil+Share.m in Sources */,
 				6C33424621E72C660095CCC6 /* main.m in Sources */,
 				6C33423821E72C650095CCC6 /* AppDelegate.m in Sources */,
 			);
