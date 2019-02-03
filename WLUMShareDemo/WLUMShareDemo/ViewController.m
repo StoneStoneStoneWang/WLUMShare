@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WLUMUtil+Share.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [[WLUMUtil shared] setUsingHttpsWhenShareContent:false];
 }
 
 
