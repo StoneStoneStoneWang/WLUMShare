@@ -28,9 +28,7 @@ s.static_framework = true
 
 s.dependency 'WLUMStatistics'
 
-s.dependency 'UMCShare/Social/WeChat'
-
-s.dependency 'UMCShare/Social/QQ'
+s.dependency 'UMCShare/UI'
 
 end
 

@@ -4,6 +4,8 @@ target 'WLUMShareDemo' do
 
 pod 'WLUMStatistics'
 
+pod 'UMCShare/UI'
+
 pod 'UMCShare/Social/WeChat'
 
 pod 'UMCShare/Social/QQ'

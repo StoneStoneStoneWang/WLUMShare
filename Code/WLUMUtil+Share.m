@@ -10,8 +10,6 @@
 
 #import <UMShare/UMShare.h>
 
-#import <UShareUI/UShareUI.h>
-
 @implementation WLUMUtil (Share)
 - (void)setUsingHttpsWhenShareContent:(BOOL)isUsingHttp {
     
