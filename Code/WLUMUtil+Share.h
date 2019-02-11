@@ -8,7 +8,7 @@
 
 
 #import <WLUMStatistics/WLUMUtil.h>
-
+#import <UMShare/UMShare.h>
 typedef void (^WLSocialRequestCompletionHandler)(id result,NSError *error);
 NS_ASSUME_NONNULL_BEGIN
 

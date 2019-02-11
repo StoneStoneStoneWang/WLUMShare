@@ -8,7 +8,7 @@
 
 #import "WLUMUtil+Share.h"
 
-#import <UMShare/UMShare.h>
+
 
 @implementation WLUMUtil (Share)
 - (void)setUsingHttpsWhenShareContent:(BOOL)isUsingHttp {
@@ -38,5 +38,6 @@
     
     return [[UMSocialManager defaultManager] handleOpenURL:url options:options];
 }
+
 
 @end

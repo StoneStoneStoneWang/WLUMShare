@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLUMShare"
-s.version      = "1.0.5"
+s.version      = "1.0.6"
 s.summary      = "A Lib For um.友盟统计封装"
 s.description  = <<-DESC
 友盟统计封装
