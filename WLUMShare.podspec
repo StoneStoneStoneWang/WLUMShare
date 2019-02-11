@@ -34,7 +34,7 @@ s.dependency 'UMCShare/Social/WeChat'
 
 s.dependency 'UMCShare/Social/QQ'
 
-s.prefix_header_contents = '#import <UMCShare/UI.h>'
+#s.prefix_header_contents = '#import <UMCShare/UI.h>'
 
 end
 
