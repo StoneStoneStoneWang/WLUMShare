@@ -5,8 +5,6 @@
 //  Created by three stone 王 on 2019/1/10.
 //  Copyright © 2019年 three stone 王. All rights reserved.
 //
-
-
 #import <WLUMStatistics/WLUMUtil.h>
 #import <UMShare/UMShare.h>
 typedef void (^WLSocialRequestCompletionHandler)(id result,NSError *error);
@@ -16,7 +14,9 @@ typedef void(^UMSuccBlock)(void);
 
 typedef void(^UMFailBlock)(void);
 
-@interface WLUMUtil (Share)
+@interface WLUMShare: NSObject
+
++ (instancetype)shared;
 
 - (void)setUsingHttpsWhenShareContent:(BOOL) isUsingHttp;
 

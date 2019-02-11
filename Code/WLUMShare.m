@@ -6,11 +6,20 @@
 //  Copyright © 2019年 three stone 王. All rights reserved.
 //
 
-#import "WLUMUtil+Share.h"
+#import "WLUMShare.h"
+static WLUMUtil *manager = nil;
+@implementation WLUMShare
 
++ (instancetype)shared {
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+        manager = [self new];
+    });
+    return manager;
+}
 
-
-@implementation WLUMUtil (Share)
 - (void)setUsingHttpsWhenShareContent:(BOOL)isUsingHttp {
     
     [UMSocialGlobal shareInstance].isUsingHttpsWhenShareContent = isUsingHttp;
