@@ -5,8 +5,8 @@
 //  Created by three stone 王 on 2019/1/10.
 //  Copyright © 2019年 three stone 王. All rights reserved.
 //
-#import <WLUMStatistics/WLUMUtil.h>
-#import <UMShare/UMShare.h>
+#import <Foundation/Foundation.h>
+
 typedef void (^WLSocialRequestCompletionHandler)(id result,NSError *error);
 NS_ASSUME_NONNULL_BEGIN
 

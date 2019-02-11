@@ -7,6 +7,8 @@
 //
 
 #import "WLUMShare.h"
+#import <UMShare/UMShare.h>
+
 static WLUMShare *manager = nil;
 @implementation WLUMShare
 
