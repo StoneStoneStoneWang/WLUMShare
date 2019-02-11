@@ -7,7 +7,7 @@
 //
 
 #import "WLUMShare.h"
-static WLUMUtil *manager = nil;
+static WLUMShare *manager = nil;
 @implementation WLUMShare
 
 + (instancetype)shared {
