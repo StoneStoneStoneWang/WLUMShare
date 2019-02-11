@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
 s.name         = "WLUMShare"
-s.version      = "1.0.4"
-s.summary      = "A Lib For um.友盟分享封装"
+s.version      = "1.0.5"
+s.summary      = "A Lib For um.友盟统计封装"
 s.description  = <<-DESC
-友盟分享封装
+友盟统计封装
 DESC
 
 s.homepage     = "https://github.com/StoneStoneStoneWang/WLUMShare"
@@ -18,7 +18,7 @@ s.requires_arc = true
 
 s.frameworks = 'UIKit', 'Foundation'
 
-s.source = { :git => "https://github.com/StoneStoneStoneWang/WLUMShare", :tag => "#{s.version}" }
+s.source = { :git => "https://github.com/StoneStoneStoneWang/WLUMShare.git", :tag => "#{s.version}" }
 
 s.source_files = "Code/**/*.{h,m}"
 
@@ -30,5 +30,12 @@ s.dependency 'WLUMStatistics'
 
 s.dependency 'UMCShare/UI'
 
+s.dependency 'UMCShare/Social/WeChat'
+
+s.dependency 'UMCShare/Social/QQ'
+
+#s.prefix_header_contents = '#import <UMCShare/UI.h>'
+
 end
+
 

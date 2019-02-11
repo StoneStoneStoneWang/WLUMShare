@@ -56,7 +56,7 @@
 		6C33425621E72C660095CCC6 /* WLUMShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLUMShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C33425A21E72C660095CCC6 /* WLUMShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLUMShareDemoUITests.m; sourceTree = "<group>"; };
 		6C33425C21E72C660095CCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C33426921E72C8C0095CCC6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C33426921E72C8C0095CCC6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C33426B21E72D620095CCC6 /* WLUMUtil+Share.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLUMUtil+Share.h"; sourceTree = "<group>"; };
 		6C33426C21E72D620095CCC6 /* WLUMUtil+Share.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WLUMUtil+Share.m"; sourceTree = "<group>"; };
 		BDB762464F1452F40D25F70E /* Pods-WLUMShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLUMShareDemo.debug.xcconfig"; path = "Target Support Files/Pods-WLUMShareDemo/Pods-WLUMShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -530,6 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WLUMShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -547,6 +548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WLUMShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
